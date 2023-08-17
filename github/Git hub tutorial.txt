@@ -1,0 +1,23 @@
+first time
+open in bash
+git init
+# git status
+git add .
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+git commit -m "?"
+[make a reposatory in github]
+git remote and origin [reposatory link]
+git push -u origin master
+
+
+then
+git status[red]
+git add .
+git commit -m "?"
+git push
+
+
+cd folder/
+cd ..
+ls

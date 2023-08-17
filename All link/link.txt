@@ -1,0 +1,3 @@
+batch a = https://bit.ly/3DzhJYb
+batch b = https://bit.ly/44NHOPh
+Linux = https://bit.ly/3OAZWVQ

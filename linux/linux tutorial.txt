@@ -1,0 +1,17 @@
+linux
+
+pwd [present working directory]
+cd folder name [go to a folder in that directory]
+cd ..[go to lower directory]
+ls [list of file/folder in current folder]
+
+mkdir folder name [create folder]
+rmdir folder name [delete folder]
+
+rm -r folder name [delete folder witth non empty] [r = recursive -bar bar]
+rm -rv folder name [] [v=verbose-explain/show]
+
+touch file name.extension[create a file]
+rm filename[]
+
+man command [to open manual of a comand]
