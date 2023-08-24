@@ -1,0 +1,29 @@
+assignment 1
+make a folder and remove all permisions	
+give read and execute permision
+
+
+assignment 2
+Q1. create a user name as ashish
+	-userid 5000[set]
+	-comment = "linux user is created"
+	-group = sales
+	-account 1 day expire
+	-user have shell interface /bin/sh
+	(do this in one line)
+
+Q2. create a user name kajol = assign her home directory
+	-kajol ko add karna hr group
+	-verify kajol is a part of hr group or not
+	-kajol add to marketing group
+		(kajol leave hr group and add herself to marketing group)
+
+	kajol should be a part or both hr and marketing group
+
+Q3./home/user/backup -> data.txt user.txt
+	so whenever i am going to crate a user it should get both the file automatically(dont use copy or move command)
+
+Q4. user - aman, aditya
+	-test = assign group to test folder as doveloper
+	-add both in doveloper group
+	-now both cant delete  eachother files

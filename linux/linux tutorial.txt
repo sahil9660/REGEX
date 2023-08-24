@@ -1,5 +1,6 @@
 linux
 
+# DAY 1
 pwd [present working directory]
 cd folder name [go to a folder in that directory]
 cd ..[go to lower directory]
@@ -15,3 +16,115 @@ touch file name.extension[create a file]
 rm filename[]
 
 man command [to open manual of a comand]
+
+
+
+# DAY 2
+cp source destination[.] [copy]
+mv source destination [move] 
+82
+
+
+cd ../folder/
+ls ../folder/
+
+editors - vi,vim,nano
+
+vim,nano - 3rd party editor - install alag se (admin)
+
+vi - default
+
+vi has 2 mode
+command mode - copy,save,quit,undo (defauld mode)
+insert mode - write,modify
+
+coommand mode -> insert mode (press a/i/o)
+insert mode -> command mode (press esc :w/:q/:wq)
+
+in command line 
+paste from p
+copy yy/2yy
+cut dd/4dd
+
+:q! (force fully exit)
+
+
+Tar command
+zip file
+tar -cf user.tar file to compressed (compressed)
+tar -tf user.tar (to see file)
+tar -xf/-xvf user.tar(unzip)
+
+ls -lh
+
+yes "massage" > user.txt
+
+tar -cf user.tar user.txt
+
+tar -czf user.tar.gz user.txt
+
+tar -j user.tar.bz (bzip)
+
+
+# DAY3
+whoami
+sudo useradd name [make user]
+sudo userdel name [delete user]
+
+tail -3 /etc/passwd [check user]
+
+sudo useradd -m name [make user in /home]
+sudo passwd user name [set password]
+
+su - username [change user]
+exit [to old user]
+
+-rw-r--r-- 1 bhattsahil2002 bhattsahil2002    0 Aug 18 04:28 data.txt
+permission link owner       group           size  timestamp  filename
+
+1-permission
+2-link
+3-owner
+4-group
+5-size
+6-timestamp
+7-filename
+-----------------------------------------------
+[ls-lh]
+-rw-r--r--
+-
+rw-   r--   r--
+owner group others
+
+r-read
+w-write
+x-execute
+
+drwxr-xr-x
+d
+rwx   r-x   r-x
+owner group others
+
+read-
+file  = content read
+folder= ls command
+
+write-
+file  = content modify
+folder= create or delete file
+
+execute-
+file  =run a file as a program
+folder=cdcommand
+-------------------------------------------------
+
+/home/bhattsahil2002
+
+
+chmod o+w [for write to others]
+
+------------------------------------------------
+cat /etc/shells
+
+man groupadd
+cat /etc/group

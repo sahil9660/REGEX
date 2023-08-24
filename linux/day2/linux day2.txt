@@ -1,0 +1,32 @@
+assignment
+make 2 folder regex and tushar
+2 file in tushar data.txt and abc.txt
+cp from tushar data.txt and paste in regex
+mv from tushar abc to regex
+
+
+Assignment 1
+in the current user create folder regex
+and create 400 file in regex [no one by one]
+delete start 100 files
+now copy file 101 to 200 in back up folder in regex
+200 to 210 delete must say a warning (do you want to delete yes/no) when delete
+left files copy and move to backup
+regex folder copy and move to backup
+
+
+Assignment 2
+create test and user folder
+in test 5 files
+2 file copy from test to user folder
+1 file copy from test to user folder but file name change to user.txt
+4th file cut from test and paste to user folder
+2 file make in test with extension .pdf
+copy .pdf file to user folder
+move test folder to user folder
+
+
+(vi editor)
+Q1 copy single line paste in same line
+Q2 cut a word and paste in 3rd line
+Q3 find a particular word(tushar/Tushar...) and replace with regex

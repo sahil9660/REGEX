@@ -1,0 +1,9 @@
+1 dirr b/t serise and dataframe.
+2 what do you mean by implace=true and implace=false.
+3 what is diff b/t dropna and filna.
+4 what is diff b/t pivot and povit table.
+5 what do means group by.
+6 what is diff b/t cross table and pivot table.
+7 what is reset_index and why we use it. 
+8 how do you get values in yours databse.
+9‬
